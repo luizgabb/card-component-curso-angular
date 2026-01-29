@@ -14,7 +14,7 @@
 
 .card {
   max-width: 350px;
-  background-color: #03b5c2;
+  background-color: #0718ad;
   border-radius: 27px;
   padding: 30px;
   font-family: 'Poppins', sans-serif;
@@ -46,7 +46,7 @@
     margin-top: 10px;
     border-radius: 25px;
     background-color: white;
-    color: #03b5c2; // Cor do texto inicial
+    color: #0718ad; // Cor do texto inicial
     font-weight: 600;
     cursor: pointer;
 
@@ -70,4 +70,26 @@
   &__button:active {
     transform: scale(0.95); // Efeito de "clique" (encolhe)
   }
+
+.inc {
+    color: #fff0f0;
+  }
+
+  .list {
+    color:#fff0f0;
+    text-align:left;
+    padding: 0;
+  }
+
+  .ph-check {
+    color: greenyellow;
+    margin-right: 15px;
+    font-size: 25px;
+  }
+
+  .mes {
+    font-size: 20px;
+
+  }
+
 }

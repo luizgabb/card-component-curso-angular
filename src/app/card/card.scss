@@ -70,4 +70,27 @@
   &__button:active {
     transform: scale(0.95); // Efeito de "clique" (encolhe)
   }
+
+  .inc {
+    color: #fff0f0;
+  }
+
+  .list {
+    color:#fff0f0;
+    text-align:left;
+    padding: 0;
+  }
+
+  .ph-check {
+    color: greenyellow;
+    margin-right: 15px;
+    font-size: 25px;
+  }
+
+   .mes {
+    font-size: 20px;
+
+  }
+
+
 }
