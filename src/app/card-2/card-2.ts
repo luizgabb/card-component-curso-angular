@@ -9,4 +9,10 @@ import { CardButton2 } from "../card-button-2/card-button-2";
 })
 export class Card2 {
 
+  tipo = 'Completo';
+  preco = 39;
+
+  getFullPrice() {
+    return 'R$' + this.preco + ',97'
+  }
 }

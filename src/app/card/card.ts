@@ -8,5 +8,8 @@ import { CardButton } from '../card-button/card-button';
   styleUrl: './card.scss',
 })
 export class Card {
-
+ plano = {
+  tipo: 'Simples',
+  preco: 19,
+ }
 }
