@@ -21,6 +21,7 @@
   font-family: 'Poppins', sans-serif;
   margin-top: 30px;
 
+
   // Propriedades de Animação
   animation: fadeInUp 0.8s ease-out forwards; // Executa ao carregar
   transition: transform 0.3s ease, box-shadow 0.3s ease; // Suaviza o hover
@@ -31,7 +32,7 @@
   }
 
   &__item {
-    padding: 10px;
+    padding: 20px;
   }
 
   &__plan {
