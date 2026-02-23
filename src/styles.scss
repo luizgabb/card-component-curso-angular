@@ -6,6 +6,15 @@
 // custom components at https://material.angular.dev/guide/theming
 @use '@angular/material' as mat;
 
+:root { //componente slider angular material
+   @include mat.slider-overrides((
+     active-track-color : white,
+     active-track-shape : 16px ,
+     handle-color: white,
+     focus-handle-color: white
+  ));
+}
+
 html {
   @include mat.theme((
     color: (

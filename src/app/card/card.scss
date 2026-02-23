@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-// Animação de Entrada (Fade In Up)
+
+// Animação de entrada(Fade-in-Up)
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -19,10 +20,10 @@
   border-radius: 27px;
   padding: 30px;
   font-family: 'Poppins', sans-serif;
-  margin-top: 30px;
+  margin-top: 10px;
 
 
-  // Propriedades de Animação
+  // Propriedades da Animação
   animation: fadeInUp 0.8s ease-out forwards; // Executa ao carregar
   transition: transform 0.3s ease, box-shadow 0.3s ease; // Suaviza o hover
   cursor: default;
@@ -32,11 +33,12 @@
   }
 
   &__item {
-    padding: 20px;
+    padding: 10px 20px 20px 20px ;
   }
 
   &__plan {
     font-size: 22px;
+    text-align: left;
   }
 
   &__price {
@@ -57,10 +59,10 @@
     transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.2s ease, background-color 0.2s;
   }
 
-  // --- Efeitos de Hover no Card Inteiro ---
+  // --- Efeitos de Hover no Card Inteiro---
   &:hover {
     transform: translateY(-8px); // Levanta o card
-    box-shadow: 0 15px 30px rgba(253, 87, 87, 0.4); // Sombra colorida suave
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4); // Sombra colorida suave
   }
 
   // --- Efeitos Específicos do Botão ---
@@ -71,7 +73,7 @@
   }
 
   &__button:active {
-    transform: scale(0.95); // Efeito de "clique" (encolhe)
+    transform: scale(0.95); // Efeito de clique
   }
 
   .inc {
